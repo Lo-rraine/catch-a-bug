@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="screen intro">
+      <div>
+        <h1>Catch the Insect</h1>
+        <button class="btn" id="start-btn">Play Game</button>
+      </div>
+    </div>
+
+    <div class="screen">
+      <h1>Pick your favorite insect</h1>
+      <ul class="insects-list">
+        <li>
+          <button class="choose-insect-btn">
+            <p>Butterfly</p>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/1186/1186530.png"
+              alt="butterfly"
+            />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Bee</p>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/809/809052.png"
+              alt="bee"
+            />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Catepillar</p>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/616/616632.png"
+              alt="catepillar"
+            />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Fly</p>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/2849/2849905.png"
+              alt="Fly"
+            />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Spider</p>
+            <img
+              src="https://cdn-icons.flaticon.com/png/512/2417/premium/2417574.png?token=exp=1655139656~hmac=4468d62dafaa89561ac96143832067b6"
+              alt="spoder"
+            />
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+      <h3 id="time" class="time">Time 00:00</h3>
+      <h3 id="score" class="score">Score: 0</h3>
+      <h5 id="message" class="message">Are you annoyed yet?</h5>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
